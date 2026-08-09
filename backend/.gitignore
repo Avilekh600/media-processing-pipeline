@@ -1,0 +1,26 @@
+# dependencies
+node_modules/
+
+# database
+pipeline.db
+pipeline.db-journal
+pipeline.db-wal
+pipeline.db-shm
+
+# uploaded files (don't commit user data/binaries)
+uploads/*
+!uploads/.gitkeep
+
+# environment variables
+.env
+
+# logs
+npm-debug.log*
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/
